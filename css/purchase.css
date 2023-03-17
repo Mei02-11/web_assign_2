@@ -1,0 +1,102 @@
+.ft{
+  font-family: 'Tangerine', cursive;
+  font-size: 60px;
+}
+/* for big title  */
+.ft2{
+  font-family: 'Old Standard TT', serif;
+}
+.accordion-header{
+  font-family: 'Merriweather', serif;
+}
+.ft3{
+  font-size: 26px;
+}
+/* for small title */
+.ft4{
+  font-family: 'Merriweather', serif;
+}
+.ft5{
+  font-family: 'Nunito Sans', sans-serif;
+}
+.fa-icon{
+  padding-right: 5px;
+}
+
+#cart-top{
+  color: #fff;
+  background-color:#576F72;
+}
+.navbar-brand{
+  color: #fff;
+}
+.nav-link{
+  color: #fff;
+}
+.cart-title{
+  padding:2%;
+  font-size: 30px;
+  text-align: center;
+}
+#cartdisplay{
+  font-family: 'Old Standard TT', serif;
+}
+.p-text{
+  text-align: center;
+  padding: 2%;
+}
+.p-item{
+  background-color: #fff;
+  width: 90%;
+  margin: 0 auto 3% auto;
+}
+.p-img{
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+.pimg{
+  padding: 2%;
+}
+.pt1{
+  padding-left: 2%;
+}
+.pt{
+  padding: 2%;
+}
+.txt3{
+  text-align: right;
+}
+.p-bottom{
+  width: 90%;
+  margin: 0 auto 3% auto;
+  text-align: right;
+  font-size: 18px;
+}
+.clear-btn{
+  width: 90%;
+  margin: 0 auto 3% auto;
+  text-align: right;
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button2 {
+  background-color: #008CBA;
+  color: white;
+}
+.button2:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA;
+}

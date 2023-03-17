@@ -1,0 +1,96 @@
+/* font */
+.ft{
+  font-family: 'Tangerine', cursive;
+  font-size: 60px;
+}
+.ft2{
+  font-family: 'Old Standard TT', serif;
+}
+.accordion-header{
+  font-family: 'Merriweather', serif;
+}
+.ft3{
+  font-size: 26px;
+}
+.ft4{
+  font-family: 'Merriweather', serif;
+}
+.fa-icon{
+  padding-right: 5px;
+  color: #fff;
+}
+/* order_detail*/
+#ctop{
+  color: #fff;
+  background-color:#576F72;
+}
+.navbar-brand{
+  color: #fff;
+}
+.nav-link{
+  color: #fff;
+}
+.top-text{
+  margin: 2% 6% 2% 6%;
+}
+.box{
+  margin: 0 6% 6% 6%;
+  /* border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding-top: 20px;
+  padding-bottom: 20px; */
+  border: 10px;
+  background-color: #fff;
+}
+i{
+  color: #2C3333;
+  font-weight: bold;
+  font-size: 20px;
+}
+.i-1{
+  color: #fff;
+}
+.bg-color{
+  background-color: #E4DCCF;
+}
+.btext{
+  font-weight: bold;
+}
+.list{
+  padding: 2%;
+}
+.order_list{
+  background-color: #7D9D9C;
+  color: #fff;
+  font-size: 20px;
+}
+.price-list{
+  text-align: right;
+}
+.submit-btn{
+  text-align: center;
+}
+.row{
+  padding: 1%;
+}
+.img-submit{
+  padding-left: 10px;
+  color: green;
+}
+
+/* order Successed */
+.box2{
+  text-align: center;
+  font-size: 22px;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
+  margin: 10% auto 10% auto;
+  padding: 10%;
+}
+.box2-text{
+  color: green;
+  display: inline-block;
+}
+.box2-btn{
+  padding: 5%;
+}

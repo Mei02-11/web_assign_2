@@ -1,0 +1,131 @@
+/* font */
+/* only for middle text */
+.ft{
+  font-family: 'Tangerine', cursive;
+  font-size: 60px;
+}
+/* for big title  */
+.ft2{
+  font-family: 'Old Standard TT', serif;
+}
+.accordion-header{
+  font-family: 'Merriweather', serif;
+}
+.ft3{
+  font-size: 26px;
+}
+/* for small title */
+.ft4{
+  font-family: 'Merriweather', serif;
+}
+.fa-icon{
+  padding-right: 5px;
+}
+
+#top{
+  background-image: url("image-bg2.jpg");
+  background-color: #6096B4;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  overflow:hidden;
+}
+.cartnum{
+  padding-right: 10px;
+}
+.badge{
+  background-color: #008CBA;
+  border-radius: 50%;
+}
+.nav-link{
+  color: #fff;
+}
+.tt-space{
+  padding-bottom: 5%;
+}
+.glass{
+  background: rgba(120, 130, 164, 0.72);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.2px);
+  -webkit-backdrop-filter: blur(6.2px);
+  padding: 5%;
+}
+/* title */
+.row{
+  padding: 0 5% 5% 5%;
+
+}
+.icon{
+  margin-left: 10px;
+}
+/* feature */
+.middle-text{
+  padding: 5%;
+  text-align: center;
+}
+/* testimonials */
+#testimonials{
+  text-align: center;
+  /* background-color: #B7C4CF; */
+}
+.testimonial-image{
+  width: 100%;
+  height: auto;
+}
+.testimonial-text{
+  font-size: 22px;
+}
+/* card */
+.container2{
+  text-align: center;
+}
+.card{
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0 10px 36px 0, rgba(0, 0, 0, 0.06) 0 0 0 1px;
+}
+.cd-space{
+  padding-bottom: 5%;
+}
+.picsize{
+  height: auto;
+}
+/* Contact */
+#contact{
+  padding:5%;
+}
+.image-google{
+  width: 25px;
+  height: 25px;
+}
+.text-3{
+  padding: 2%;
+}
+.container3{
+  width: 25%;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: center;
+  padding: 2%;
+}
+.image-map{
+  box-shadow: rgba(0, 0, 0, 0.16) 0 10px 36px 0, rgba(0, 0, 0, 0.06) 0 0 0 1px;
+  width: 100%;
+  height: auto;
+}
+/* bottom */
+.bottom-bg{
+  background-color: #7882A4;
+  color:#fff;
+}
+.text-bt{
+  padding-top: 10%;
+}
+.text-2{
+  margin: 2% auto 4% auto;
+}
+.copyright{
+  text-align: center;
+  padding: 2%;
+}

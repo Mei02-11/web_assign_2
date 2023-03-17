@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="favicon (1).ico">
+    <title>Jo Hotel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css\purchase.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
+    <script src="https://kit.fontawesome.com/9a7339b4be.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Merriweather&family=Nunito+Sans&family=Old+Standard+TT&family=Tangerine&display=swap" rel="stylesheet">
+    </head>
+  <body style="background-color:#ECF2FF;">
+    <section id="cart-top">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <div class="col-lg-1"></div>
+          <a class="navbar-brand ft4">My Order</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link ft4" href="index.html"><i class="fa-solid fa-house fa-icon"></i>Home</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+
+    <h2 class="p-text">Order History</h2>
+    <!-- <div class="p-item">
+      <div class="row pimg">
+        <div class="col-lg-3 ">
+          <img class="p-img" src="eroomchoose 2 index.jpg" alt="">
+        </div>
+        <div class="col-lg-8">
+          <div class="pt1">
+            <b class="ft5" style="font-size:20px;">Economy Room</b>
+          </div>
+          <div class="pt">
+            Check-in Date: 2023-03-17 - Check-out Date: 2023-03-24<br>Bed: Single bed <br> Meal: Half board
+          </div>
+          <div class="pt txt3">
+            Total: <b>RM </b>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="p-bottom">
+    <div class="row p-bottom">
+      <div class="col-lg-9">
+        Subtotal:
+      </div>
+      <div class="col-lg-2">
+      </div>
+      <div class="col-lg-1">
+        <b>RM </b>
+      </div>
+    </div> -->
+
+    <div id="orderdisplay">
+    </div>
+    <hr class="p-bottom">
+    <div class="row p-bottom">
+      <div class="col-lg-9">
+        Subtotal:
+      </div>
+      <div class="col-lg-2">
+      </div>
+      <div class="col-lg-1">
+        <b>RM <span id="ttpriceShow"></span> </b>
+      </div>
+    </div>
+    <!-- <div id="p-bottomjs">
+
+    </div> -->
+    <div class="clear-btn">
+      <a href="#" class="button button2" onclick="clearall()">Clear History</a>
+    </div>
+
+    <script src="main.js" type="text/javascript"></script>
+  </body>
+</html>
